@@ -1,0 +1,62 @@
+body{
+	background-color: gray;
+	border-style: solid;
+	border-color: ghostwhite;
+	width: auto;
+}
+h1{
+	text-align: center;
+	background-color: darkred;
+	border-style: solid;
+	border-color: black;
+	color: white;
+}
+h2{
+	text-align: center;
+	background-color: darkred;
+	border-style: solid;
+	border-color: black;
+	color: white;
+}
+p{
+	font-weight: bold;
+	font-size: large;
+}
+label{
+	display: inline-block;
+ 	width: 135px;
+ 	font-weight: bold;
+}
+table {
+   width: 100%;
+   border: 1px solid #000;
+}
+th, td {
+   width: 25%;
+   text-align: left;
+   vertical-align: top;
+   border: 1px solid #000;
+   border-collapse: collapse;
+   padding: 0.3em;
+}
+form input[type="submit"]{
+    font-size:12px;
+    font-family:Verdana,Helvetica;
+    font-weight:bold;
+    color:#0000FF;
+    background:#A4C1FF;
+    border:0px;
+    width:120px;
+    height:25px;
+}
+footer{
+	height:130px;
+	line-height:25px;
+	background:black;
+	color:white;
+	position:absolute;
+	bottom:0;
+	left:0;
+	width:100%;
+	font-weight: bold;
+}
